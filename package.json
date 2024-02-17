@@ -1,6 +1,6 @@
 {
   "name": "@ameripharma/rnr-json-forms",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "source": "src/index",
   "main": "lib/index.js",
@@ -14,7 +14,11 @@
     "pod-install": "cd example/ios && bundle exec pod install",
     "clean": "rm -rf node_modules && rm -rf example/node_modules"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/velevtzvetlin/rnr-json-forms.git"
+  },
+  "author": "Tzvetlin Velev",
   "license": "ISC",
   "files": [
     "lib",
